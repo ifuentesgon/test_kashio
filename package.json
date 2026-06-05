@@ -1,0 +1,30 @@
+{
+  "name": "test_kashio",
+  "version": "1.0.0",
+  "description": "Respuestas a Prueba técnica QA Automation, Kashio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifuentesgon/test_kashio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ifuentesgon/test_kashio/issues"
+  },
+  "homepage": "https://github.com/ifuentesgon/test_kashio#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@cucumber/html-formatter": "^23.1.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
