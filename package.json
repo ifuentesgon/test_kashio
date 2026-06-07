@@ -27,4 +27,9 @@
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
+  "scripts": {
+  "test:smoke": "cucumber-js --tags '@smoke'",
+  "test:regression": "cucumber-js --tags '@regression'",
+  "report": "node src/utils/reporter.js"
+}
 }
